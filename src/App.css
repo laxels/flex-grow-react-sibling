@@ -1,0 +1,13 @@
+.container {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sibling {
+    height: 100px;
+}
+
+.height-logger {
+    flex-grow: 1;
+}
