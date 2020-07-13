@@ -25,7 +25,12 @@ interface HeightLoggerProps {
   siblingShown: boolean;
 }
 
+let renders = 0;
+
 const HeightLogger: React.FC<HeightLoggerProps> = ({siblingShown}) => {
+  console.log('');
+  console.log('render', ++renders);
+  console.log('');
   const ref = useRef<HTMLDivElement | null>(null);
 
   console.log('siblingShown', siblingShown);
