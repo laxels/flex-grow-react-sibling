@@ -14,13 +14,13 @@
     "preserveConstEnums": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "allowJs": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "jsx": "react",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "jsx": "react"
   },
   "include": [
     "src"
